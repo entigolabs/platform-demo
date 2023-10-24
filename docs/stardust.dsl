@@ -11,8 +11,7 @@ workspace {
             stardust.nginx -> stardust.php "pass dynamic requests to php-fpm"
         }
         user -> stardust.nginx "use the app"
-
-
+        
     }
 
     views {

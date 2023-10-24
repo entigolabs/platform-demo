@@ -8,7 +8,6 @@ metadata:
     alb.ingress.kubernetes.io/success-codes: '200,301,302,404'
     alb.ingress.kubernetes.io/scheme: internal
     alb.ingress.kubernetes.io/group.name: internal
-    alb.ingress.kubernetes.io/group.order: '700'
     alb.ingress.kubernetes.io/target-type: ip
     external-dns.alpha.kubernetes.io/ttl: "60"
     kubernetes.io/ingress.class: alb
