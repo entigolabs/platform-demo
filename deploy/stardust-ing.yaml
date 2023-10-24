@@ -14,7 +14,7 @@ metadata:
     kubernetes.io/ingress.class: alb
 spec:
   rules:
-    - host: stardust.dev.entigo.dev
+    - host: stardust.dev-int.entigo.dev
       http:
         paths:
           - path: /
