@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "docs/"
+		}
+	],
+	"settings": {
+		"c4.diagram.structurizr.enabled": true
+	}
+}
