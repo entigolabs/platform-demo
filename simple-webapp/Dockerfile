@@ -1,4 +1,4 @@
-FROM nginx:1.25-alpine
+FROM nginx:stable-alpine
 
 # Copy what we've installed/built from production
 COPY ./config/nginx-default.conf /etc/nginx/templates/default.conf.template
