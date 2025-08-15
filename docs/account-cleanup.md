@@ -129,4 +129,10 @@ docker run -it --rm -v "$(pwd)":"/conf" -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCES
 
 Press "Y" to confirm the deletion.
 
+## Revoke Entigo Platform access
+
+Log in to AWS Console and navigate to CloudFormstion service view. There you should see Stack ```EntigoProductAccessManagerRole```. Delete it!
+
+![](images/revoce-access.png)
+
 That was it, everything is cleaned up!
